@@ -1,0 +1,472 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1900px;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(0, 0, 0);
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+
+
+.menu_header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+}
+
+.menu_logo {
+    padding-left: 390px;
+
+}
+
+.menu_logo img {
+    width: auto;
+    height: 120px;
+}
+
+
+
+.menu_options_header nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu_options_header nav ul {
+    display: flex;
+
+}
+
+
+.menu_options_header nav a {
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Helvetica';
+
+}
+
+
+.menu_options_header nav a:hover {
+    color: rgb(125, 255, 38)
+}
+
+.login a:hover {
+    color: #FFF;
+}
+
+.login a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(125, 255, 38);
+
+}
+
+
+.login {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+
+}
+
+.login a button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'noto sans';
+    font-size: 18px;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display: flex;
+
+
+}
+
+.login a button:hover,
+button:focus {
+    background-color: rgb(71, 142, 24);
+    color: #FFF;
+}
+
+section {
+    display: block;
+}
+
+.main_page {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 1903px;
+    height: 600px;
+    justify-content: center;
+}
+
+.main_page_img {
+    width: 1120px;
+    height: auto;
+    background-image: url('../images/wp.header5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.main_page_title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 90px;
+
+}
+
+.main_page_title h1 {
+    font-size: 35px;
+    max-width: 550px;
+    margin: 0;
+    padding-left: 100px;
+    color: #FFFF;
+    font-family: 'noto sans';
+}
+
+.main_page_title h2 {
+    font-size: 19px;
+    max-width: 610px;
+    margin: 0;
+    padding-left: 100px;
+    color: #FFFF;
+    font-family: 'noto sans thin';
+}
+
+.button_main_page {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.button_main_page button {
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'noto sans semibold';
+    font-size: 18px;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 280px;
+    height: 70px;
+    background-color: rgb(6, 159, 6);
+    border: 1px solid rgb(125, 255, 38);
+    border-radius: 3px;
+}
+
+.button_main_page button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button_main_page button:hover,
+.button_main_page button:focus {
+    background-color: #000;
+    border: 1px solid #FFF;
+
+
+}
+
+.lower_page {
+    box-sizing: border-box;
+    display: flex;
+    width: 1900px;
+    height: 600px;
+    justify-content: center;
+    display: flex;
+}
+
+.lower_page_img {
+    background-image: url('../images/stonebg2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 1899px;
+    height: 1000px;
+    padding-left: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.content_page_box {
+    background-color: #FFF;
+    width: 1030px;
+    height: 802x;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.content_page_title h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-family: 'noto sans';
+    padding-top: 50px;
+}
+
+.lower_page_games ul li {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding-right: 65px;
+}
+
+.lower_page_games img {
+    margin-top: 60px;
+    height: 320px;
+    width: auto;
+
+}
+
+.lower_page_games ul {
+    display: flex;
+    align-items: center;
+}
+
+.lower_page_games ul li img:hover,
+.lower_page_games ul li img:focus {
+    border: 2px solid rgb(125, 255, 38);
+    height: 400px;
+}
+
+
+.lower_page_games li {
+    font-size: 13px;
+    font-family: 'noto sans';
+    color: rgb(91, 254, 42);
+    text-align: center;
+
+}
+
+.lower_page_games li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(39, 164, 1);
+}
+
+.lower_page_games li a:hover,
+.lower_page_games li a:focus {
+    color: #000;
+}
+
+.txt_desc_list ul li p {
+    color: #000;
+    font-family: 'noto sans';
+    font-size: 15px;
+
+}
+
+.txt_desc_list ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: black;
+    margin-top: 250px;
+    height: 450px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.flexColumn {
+    flex-direction: column;
+
+}
+
+.social_footer {
+    padding: 15px;
+}
+
+.mine_title_footer {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'noto sans Extrabold';
+    text-align: center;
+}
+
+.socialmedia_menu ul img {
+    height: 31px;
+
+
+}
+
+.socialmedia_menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia_menu li {
+    padding-right: 62px;
+}
+
+.youtubelogo img:hover,
+.youtubelogo img:focus {
+    background-color: red;
+    border-radius: 15px;
+}
+
+.instagramlogo img:hover,
+.instagramlogo img:focus {
+    background-color: rgb(255, 56, 89);
+    border-radius: 15px;
+}
+
+.facebooklogo img:hover,
+.facebooklogo img:focus {
+    background-color: rgb(0, 128, 255);
+    border-radius: 15px;
+}
+
+.twitterlogo img:hover,
+.twitterlogo img:focus {
+    background-color: rgb(53, 162, 251);
+    border-radius: 15px;
+}
+
+.redditlogo img:hover,
+.redditlogo img:focus {
+    background-color: rgb(255, 102, 0);
+    border-radius: 15px;
+}
+
+.contents_jogos ul {
+    list-style: none;
+    justify-content: space-around;
+}
+
+.contents_jogos li {
+    font-family: 'noto sans Extrabold';
+    color: rgb(153, 255, 58);
+    margin-right: 150px;
+    font-size: 11px;
+    padding-top: 15px;
+}
+
+.title_jogos {
+    font-family: 'noto sans Extrabold';
+    color: #FFF;
+    margin-left: 39px;
+}
+
+.footer_contents {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_contents li {
+    display: block;
+
+}
+
+.container_jogos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contents_jogos li a {
+    text-decoration: none;
+    color: rgb(153, 255, 58);
+}
+
+.contents_jogos li a:hover,
+.contents_jogos li a:focus {
+    color: #FFF;
+
+}
+
+.footer_copy {
+    color: #FFF;
+    display: flex;
+    align-items: flex-end;
+    background-color: #000;
+    font-family: 'noto sans';
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.footer_copy span {
+    padding-left: 5px;
+
+}
+
+.footer_copy a {
+    text-decoration: none;
+    color: rgb(125, 255, 38);
+}
+
+.footer_copy a:hover,
+.footer_copy a:focus {
+    color: #FFF;
+
+}
+
+.buymine {
+    display: flex;
+    padding-left: 500px;
+}
+
+.buymine button {
+    color: #FFF;
+    cursor: pointer;
+    font-family: 'noto sans semibold';
+    font-size: 18px;
+    transition: color 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 270px;
+    height: 50px;
+    background-color: rgb(6, 159, 6);
+    border: 1px solid rgb(125, 255, 38);
+    border-radius: 3px;
+}
+
+.buymine button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.buymine button:hover,
+.buymine button:focus {
+    background-color: rgb(51, 118, 3);
+    border: 1px solid #FFF;
+}
